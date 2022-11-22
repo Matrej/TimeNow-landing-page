@@ -4,3 +4,121 @@
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
 }
+
+body {
+    min-height: 100vh;
+    margin: 0;
+}
+header {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+/* HEADER */
+nav, .hero, #info {
+    margin: 0 auto;
+    padding: 10px 35px;
+    max-width: 1000px;
+}
+
+nav {
+    display: flex;
+    align-items:baseline;
+    justify-content: space-between;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+.logo {
+    font-weight: 900;
+    font-size: 24px;
+}
+.hero {
+    padding: 100px 35px;
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.hero p {
+    padding: 0;
+    margin: 5px 0 15px 0;
+}
+.hero h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+    color: #f9faf8;
+    text-shadow: 5px 5px 0px rgba(51, 85, 158, 0.473);
+}
+.hero .containerImg {
+    background: url(https://images.pexels.com/photos/5895866/pexels-photo-5895866.jpeg);
+    background-size: cover;
+    background-position: 50%;
+    width: 50%;
+    flex: 1 1 auto;
+    border: 3px solid #f9faf8;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.473);
+}
+.hero .container {
+    width: 50%;
+    flex: 1 1 auto;
+}
+.hero .button {
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 8px 30px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* SECTION INFO */
+#info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#info h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+#info .flex {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aliceblue;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 3px #3882f6 solid;
+    flex: 1 1 0;
+    text-align: center;
+}
+.card:hover {
+    background-color: rgb(211, 224, 235);
+}
+.card p {
+    border-top: 3px solid #1f2937;
+    padding: 15px;
+    margin: 0;
+}
+.card img {
+    min-width: 100px;
+    fill: #3882f6;
+    stroke-width: 0;
+    stroke: 0;
+    margin: 20px;
+    
+}
