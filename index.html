@@ -4,66 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Awesome landing Flexbox page</title>
+    <title>TimeNow Landing Page</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <nav>
-            <div class="logo">Header logo</div>
-            <ul>
-                <li><a>Header Link one</a></li>
-                <li><a>Header Link two</a></li>
-                <li><a>Header Link three</a></li>
-            </ul>
-        </nav>
-        <div class="hero">
+        <nav class="container">
             <div class="container">
-                <h1>This website is awesome</h1>
-                <p>Just some annoyngly written text. My lorem ipsum generator didnt work for some reason.</p>
-                <div class="button">Sign up</div>
+                <img src="Assets/Logo.svg" alt="logo" class="logo">
+                <ul>
+                    <li>Features</li>
+                    <li>Pricing</li>
+                </ul>
             </div>
-            <div class="containerImg">
-            </div>
-        </div>    
+            <button class="startNow">Start Scheduling</button>
+        </nav>
     </header>
-    <section id="info" class="flex_center">
-        <h2>What you can learn by practicing karate</h2>
-        <div class="flex">
-            <div class="card">
-                <img src="./images/key_FILL0_wght400_GRAD0_opsz48.svg" alt="">
-                <p>sense of justice</p>
+    <main>
+        <section class="one">
+            <div class="container">
+                <div class="column-one">
+                    <h1>Post when your audience is most active.</h1>
+                    <p>With TimeNow, automatically schedule your posts on Twitter, LinkedIn, and Instagram to post when your followers are most active.</p>
+                    <div class="container">
+                        <button class="startNow">Start Scheduling</button>
+                        <button class="demo">View Demo</button>
+                    </div>
+                </div>
+                <div class="column-two">
+                    <img src="Assets/Mockup.png" alt="mockup" class="mockup">
+                </div>
             </div>
-            <div class="card">
-                <img src="./images/sort_FILL0_wght400_GRAD0_opsz48.svg" alt="">
-                <p>self respect</p>
-            </div>
-            <div class="card">
-                <img src="./images/star_half_FILL0_wght400_GRAD0_opsz48.svg" alt="">
-                <p>humbleness</p>
-            </div>
-            <div class="card">
-                <img src="./images/terminal_FILL0_wght400_GRAD0_opsz48.svg" alt="">
-                <p>strong body, strong mind</p>
-            </div>
-        </div>
-    </section>
-    <section id="quote" class="flex_center">
-        <p>Think of everyday life as karate training.</p>
-        <p>The ultimate aim of Karate lies not in victory or defeat, but in the perfection of the character of its participants.</p>
-        <div class="author">- Gichin Funakoshi, Founder of shotokan karate</div>
-    </section>
-    <section id="call" class="flex_center">
-        <div class="call_container">
-            <div>
-                <h3>Call to action! I'ts time for joining karate!</h3>
-                <p>Don't wait for another year of your life and accept philosophy and self-defence of karate</p>
-            </div>
-            <div class="button">Join us!</div>
-        </div>
-    </section>
-    <footer class="flex_center">
-        <p>Made by Matej Blaha, inspired by The Odin project</p>
-    </footer>
+        </section>
+    </main>
+    <footer></footer>
 </body>
 </html>
